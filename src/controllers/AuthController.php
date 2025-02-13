@@ -1,5 +1,5 @@
 <?php
-requiere_once __DIR__ . '/../services/AuthService.php';
+require_once __DIR__ . '/../services/AuthService.php';
 
 class AuthController {
     private $authService;
